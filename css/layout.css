@@ -18,10 +18,54 @@
   line-height: 0;
 }
 
+
 .clear {
   clear: both;
 }
 
 /* Posititoning Classes */
 
+.col-1 {
 
+  width: 32%;
+
+}
+.col-2 {
+
+  width: 66%;
+}
+
+
+/*[class*="col-"] {
+  margin-left: 2%;
+
+}*/
+
+.first {
+  margin-left: 2%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-end {
+  justify-content: flex-end;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.tester {
+
+  margin-top: 2%;
+
+}
